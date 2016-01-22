@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/sub_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="?actionBarSize"
+        android:background="#FF0099"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg_image_5"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            >
+
+            <Button
+                android:id="@+id/btn_set_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_date"
+                android:background="@drawable/bg_button"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#F0FFFF"
+                android:onClick="onButtonClick"/>
+
+
+            <EditText android:id="@+id/edit_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:maxLength="100"
+                android:textSize="18sp"
+                android:hint="@string/edit_title"
+                android:background="@null"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#FF0099"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/text_sentence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#FF0099"
+                android:layout_marginTop="5dp"
+                />
+
+            <!--
+            <Switch
+                android:id="@+id/switch_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_alarm_title"
+                android:layout_gravity="right"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                >
+
+                <TextView
+                    android:id="@+id/text_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:text="@string/alarm_interval"
+                    android:padding="10dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:prompt="@string/alarm_interval"
+                />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#4169E1"
+                android:layout_gravity="right"
+                android:textSize="18sp"
+                android:layout_marginRight="20dp"
+                android:text="@string/btn_time"
+                android:onClick="onButtonClick"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#FF0099"
+                android:layout_marginTop="20dp"
+                />
+            -->
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_save"
+                android:background="#00000000"
+                android:textColor="#08088A"
+                android:layout_gravity="right"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:onClick="onButtonClick"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

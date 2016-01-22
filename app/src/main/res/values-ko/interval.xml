@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="interval">
+        <item>매일</item>
+        <item>10일째 마다</item>
+        <item>100일째 마다</item>
+    </string-array>
+</resources>

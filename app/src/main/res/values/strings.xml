@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Anniversary Calculator</string>
+    <string name="edit_title">Write your sentence ex) I have been married for ...</string>
+    <string name="btn_date">Select Your Anniversary</string>
+    <string name="btn_save">Save</string>
+    <string name="warn_title">Write your sentence</string>
+    <string name="warn_date">Select Your Anniversary</string>
+    <string name="insert_fail">Failed to save</string>
+    <string name="insert_ok">Saved</string>
+    <string name="dialog_del_title">Delete</string>
+    <string name="dialog_del_content">Are you sure you want to delete it?</string>
+    <string name="dialog_del_ok">Delete</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="delete_ok">Deleted</string>
+    <string name="surfix">days</string>
+    <string name="insert_title">Add Your Anniversary</string>
+    <string name="set_alarm_title">Alarm</string>
+    <string name="btn_time">Setting Time</string>
+    <string name="alarm_interval">Alarm Interval</string>
+    <string name="set_alarm_done_msg">Alarm time has been set</string>
+    <string name="warn_set_time">Please set alarm time</string>
+    <string name="update_title">Update Your Anniversary</string>
+    <string name="update_ok">Updated</string>
+</resources>
